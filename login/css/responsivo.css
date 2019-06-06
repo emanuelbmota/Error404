@@ -1,0 +1,53 @@
+/*Estilo para smartphone*/
+@media only screen and (max-width: 767px) {
+
+            /*Header*/
+            .header {
+                position: relative;
+                padding-bottom: 0px;
+            }
+            .header img {
+                margin: 0 auto 10px auto;
+            }
+            .header_menu {
+                text-align: center;
+            }
+            .header_menu ul li {
+                margin: 5px;
+            }
+            .header_menu ul li a {
+                border: 4px solid #000;
+                width: 136px;
+                display: block;
+                float: left;
+            }
+            .header_menu ul li a:hover {
+                border-color: #fff;
+            }
+            .header_menu ul li a.menu_ativo {
+                border-color: #fff;
+            }
+            /*Introducao*/
+            .introducao h1 {
+                font-size: 36px;
+            }
+            .introducao {
+                margin-top: 0px;
+                padding-top: 40px;
+                background: url("../img/bg-mobile.jpg") no-repeat center;
+                background-size: cover;
+            }
+            /*Introdução Interna*/
+            .introducao-interna {
+                margin-top: 0px;
+            }
+            /*Call*/
+            .call {
+                padding-top: 10px;
+            }
+            /*Qualidade Home*/
+            .qualidade:after {
+                display: none;
+            }
+    
+    } 

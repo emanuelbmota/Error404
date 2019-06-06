@@ -1,0 +1,74 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+/* estilização basica do corpo da pagina */
+body{ 
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: linear-gradient( #ff0099, #493240);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* alinhamento da caixa onde contem os campos de login */
+.caixa-login{
+	width: 280px;
+	position: absolute;
+	top: 180px;
+	left: 700px;
+	transform: translate(40%,40%);
+	color: white;
+}
+
+/* edição do texte "Login" e da barra abaixo dele */
+.caixa-login h1{
+	text-align: center;
+ 	float: top;
+ 	font-size: 40px;
+ 	border-bottom: 6px solid #FFE93C;
+ 	margin-bottom: 50px;
+ 	padding: 13px 0;
+}
+
+/* edição dos inputs e das barrinhas abaixo deles */
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #FFE93C;
+}
+
+/* edição dos inputs(caixas de texto) */
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+/* edição do botão entrar */
+.btn{
+	width: 100%;
+	background: none;
+	border: 2px solid #FFE93C;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	margin: 12px 0;
+}
+/* edição do botão "esqueci minha senha" */
+.btn_forgot{
+	width: 100%;
+	background: none;
+	border: none;
+	color: white;
+	padding: 5px;
+	font-size: 12px;
+	margin: 12px 0;
+}
