@@ -1,0 +1,11 @@
+#home nav ul li {
+
+    display: inline-block;
+    width: 100px;
+
+}
+
+#home nav ul li a {
+
+    text-decoration: none;
+}
