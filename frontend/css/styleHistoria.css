@@ -71,12 +71,16 @@ body{
 footer {
     
     text-align: center;
+    
     position: relative;
     top: 380px;
     width: 100%;
     margin: 0;
     background: rgb(0, 0, 0, 0.4);
     
+
+    
+
 }
 
 footer p{
@@ -85,7 +89,6 @@ footer p{
     padding: 25px;
     color: rgb(0, 0, 0);
     text-shadow: #414549;
-
 }
 .container {
 
@@ -96,6 +99,7 @@ footer p{
     justify-content: center;
     background-repeat: no-repeat;
     background-position:  center;
+
 
 }
 
