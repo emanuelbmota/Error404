@@ -11,7 +11,6 @@ body{
     background-attachment: fixed; 
     
 }
-
 #banner{
     background-color: rgba(66, 66, 66, 0.4);
     height: 89px;
@@ -67,26 +66,6 @@ body{
     
 }
 
-
-footer {
-    
-    text-align: center;
-    position: relative;
-    top: 380px;
-    width: 100%;
-    margin: 0;
-    background: rgb(0, 0, 0, 0.4);
-    
-}
-
-footer p{
-
-    margin: 0;
-    padding: 25px;
-    color: rgb(0, 0, 0);
-    text-shadow: #414549;
-
-}
 .container {
 
     width: 100vw;
@@ -119,3 +98,34 @@ footer p{
     
 }
 
+
+
+
+
+footer {
+    
+    text-align: center;
+    position: relative;
+    top: 380px;
+    width: 100%;
+    margin: 0;
+    background: rgb(0, 0, 0, 0.4);
+    
+}
+
+footer p{
+
+    margin: 0;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    text-shadow: #414549;
+
+}
+
+.funcao a{
+
+    
+    position: relative;
+    float: right;
+    
+}
