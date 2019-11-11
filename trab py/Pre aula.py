@@ -409,7 +409,7 @@ def variancia():
     
     print("\n O Valor da Variancia é: {:.2f} ".format(variancia))
 
-    Voltar = input("\n Deseja voltar ao menu principal? 's' para sim, 'n' para não.")
+    Voltar = input("\n Deseja voltar ao menu principal? 's' para sim, 'n' para não.\n")
 
     if Voltar == 's':
         print("\n MENU (Escolha das funcionalidades)\n\n")
